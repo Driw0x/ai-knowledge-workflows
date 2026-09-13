@@ -269,4 +269,4 @@ Do not commit:
 
 ## License
 
-MIT License.
+[MIT License](LICENSE)

@@ -73,11 +73,14 @@ ai-knowledge-workflows/
 │   │   └── audit-knowledge.md
 │   ├── skills/
 │   │   ├── evaluate-skills.md
-│   │   └── sync-skills.md
-│   └── documentation/
-│       ├── update-readme.md
-│       ├── update-project-doc.md
-│       └── repository-audit.md
+│   │   ├── sync-skills.md
+│   │   └── cross-project-competency-analysis.md
+│   ├── documentation/
+│   │   ├── update-readme.md
+│   │   ├── update-project-doc.md
+│   │   └── repository-audit.md
+│   └── portfolio/
+│       └── synchronize-portfolio.md
 │
 ├── templates/
 │   ├── career-profile.md
@@ -87,8 +90,19 @@ ai-knowledge-workflows/
 ├── examples/
 │   └── internship-research-example.md
 │
-└── docs/
-    └── prompt-engineering.md
+├── docs/
+│   └── prompt-engineering.md
+│
+└── evals/
+    ├── README.md
+    ├── rubrics/
+    │   └── prompt-evaluation-rubric.md
+    ├── templates/
+    │   └── evaluation-report.md
+    └── cases/
+        ├── project-update.md
+        ├── skill-evaluation.md
+        └── documentation-update.md
 ```
 
 ## Workflow catalog
@@ -132,13 +146,25 @@ Extract durable knowledge from source material, consolidate overlapping notes, a
 
 `prompts/skills/`
 
-Evaluate which skills are actually demonstrated by available evidence and synchronize skill records with current projects and experience.
+Evaluate which skills are actually demonstrated by available evidence, synchronize skill records with current projects and experience, and analyze competency evidence across multiple projects.
 
 ### Documentation
 
 `prompts/documentation/`
 
 Update READMEs and technical documentation while preserving valid content and minimizing unnecessary rewrites.
+
+### Portfolio
+
+`prompts/portfolio/synchronize-portfolio.md`
+
+Synchronize the public portfolio with the verified knowledge base while preserving privacy and using minimal diffs.
+
+## Prompt evaluation
+
+`evals/`
+
+Evaluate prompt behavior with reusable cases, a shared rubric, and structured evaluation reports.
 
 ## Quick start
 
@@ -252,19 +278,23 @@ Do not commit:
 ### Skills
 - [x] Evaluate demonstrated skills
 - [x] Synchronize skills with projects
+- [x] Cross-project competency analysis
 
 ### Documentation
 - [x] Update README
 - [x] Update project documentation
 - [x] Audit repository documentation
 
+### Portfolio
+- [x] Portfolio synchronization workflow
+
+### Prompt evaluation
+- [x] Prompt evaluation benchmarks
+
 ## Future work
 
 - [ ] CV adaptation workflow
-- [ ] Portfolio synchronization workflow
 - [ ] Application preparation workflow
-- [ ] Cross-project competency analysis
-- [ ] Prompt evaluation benchmarks
 - [ ] Model-to-model output comparison
 
 ## License

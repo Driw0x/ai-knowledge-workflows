@@ -99,6 +99,10 @@ ai-knowledge-workflows/
     │   └── prompt-evaluation-rubric.md
     ├── templates/
     │   └── evaluation-report.md
+    ├── results/
+    │   ├── project-update.md
+    │   ├── skill-evaluation.md
+    │   └── documentation-update.md
     └── cases/
         ├── project-update.md
         ├── skill-evaluation.md
@@ -262,6 +266,8 @@ Do not commit:
 
 ## Current status
 
+**Status: v1 complete — maintenance and optional extensions only.**
+
 ### Career
 - [x] Internship research
 
@@ -289,9 +295,11 @@ Do not commit:
 - [x] Portfolio synchronization workflow
 
 ### Prompt evaluation
-- [x] Prompt evaluation benchmarks
+- [x] Prompt evaluation cases, rubric, and qualitative results
 
-## Future work
+## Possible extensions
+
+The following items are optional and outside the v1 scope:
 
 - [ ] CV adaptation workflow
 - [ ] Application preparation workflow

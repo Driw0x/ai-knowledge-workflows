@@ -31,7 +31,9 @@ For the selected offers, determine:
 - Respect geographic, role, education-level, duration, and timing constraints from the candidate profile.
 - Prefer original employer career pages when available.
 - Do not treat inaccessible or clearly expired offers as active.
-- Deduplicate identical offers published on multiple platforms.
+- Evaluate the actual responsibilities and requirements, not the job title alone.
+- Deduplicate identical offers across sources, using the official requisition ID or application URL when available.
+- Distinguish an accessible listing from a position confirmed as still open.
 - Do not infer candidate skills that are not supported by the supplied files.
 - Do not include weakly related offers simply to increase the result count.
 - Preserve source URLs or references needed to verify selected offers.

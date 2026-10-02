@@ -101,12 +101,13 @@ Changes can therefore be reviewed like code:
 
 A prompt workflow becomes stronger when its quality can be assessed.
 
-Future improvements may include:
+This repository includes:
 
-- benchmark tasks;
-- model-to-model comparisons;
-- output-consistency tests;
-- rubric-based evaluation;
-- regression examples.
+- stable evaluation cases;
+- a shared rubric;
+- qualitative result reports;
+- regression criteria for comparing prompt behavior.
 
-These additions would turn the repository from a prompt library into a small prompt-engineering system with measurable behavior.
+The framework remains manual and lightweight. Model-to-model comparisons,
+automated execution, and repeated-run consistency tests remain optional
+extensions rather than v1 requirements.

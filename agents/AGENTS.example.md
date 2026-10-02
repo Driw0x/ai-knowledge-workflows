@@ -22,6 +22,7 @@ Copy it to `AGENTS.md` before adapting it to your own environment.
 10. Prefer minimal diffs over broad rewrites.
 11. Never expose secrets or private information in public outputs.
 12. When a claim cannot be verified, state the limitation instead of guessing.
+13. Distinguish implemented, tested, validated, experimental, planned, abandoned, and replaced work when relevant.
 
 ## Evidence policy
 
@@ -38,6 +39,8 @@ A skill, feature, or result is considered supported only when there is concrete 
 - externally verifiable sources.
 
 A technology name appearing in a file is not enough by itself to prove competence.
+
+Missing skill evidence means "not documented," not proof that the person lacks the skill.
 
 ## File safety
 

@@ -28,6 +28,8 @@ Review:
 - Do not document roadmap items as implemented.
 - Do not infer skills or technologies.
 - Use repository evidence as the primary source.
+- Distinguish implemented, tested, validated, experimental, planned, abandoned, and replaced work.
+- Preserve whether an important result was reproduced, only documented, historical, or superseded.
 - Keep historical information only when it provides useful project context.
 - Clearly label paused, abandoned, experimental, or completed work when relevant.
 

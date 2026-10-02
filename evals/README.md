@@ -39,7 +39,11 @@ evals/
 │   └── prompt-evaluation-rubric.md
 ├── templates/
 │   └── evaluation-report.md
-└── cases/
+├── cases/
+│   ├── project-update.md
+│   ├── skill-evaluation.md
+│   └── documentation-update.md
+└── results/
     ├── project-update.md
     ├── skill-evaluation.md
     └── documentation-update.md
@@ -131,29 +135,30 @@ Examples:
 
 ## Current benchmark scope
 
-The initial benchmark set focuses on:
+The current manual benchmark set includes cases and qualitative results for:
 
 - project updates;
 - skill evaluation;
 - documentation updates.
 
-Future benchmark cases can cover:
+Possible additional cases can cover:
 
 - internship research;
 - knowledge extraction;
 - portfolio synchronization;
 - cross-project competency analysis.
 
-## Future automation
+## Optional automation
 
-The initial framework is intentionally manual and lightweight.
+The framework is intentionally manual and lightweight. The reports in
+`evals/results/` apply the shared rubric without claiming measured model
+performance or cross-model reproducibility.
 
 Possible future additions:
 
 ```text
 evals/
 ├── scripts/
-├── results/
 └── datasets/
 ```
 

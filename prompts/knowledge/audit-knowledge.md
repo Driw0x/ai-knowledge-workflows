@@ -13,6 +13,7 @@ Audit the knowledge base for quality, consistency, and maintainability.
 - missing cross-links;
 - weak evidence for claimed skills;
 - project knowledge stored in the wrong place;
+- precise results duplicated across several concept notes;
 - transient information that should not be retained;
 - important concepts that are repeatedly referenced but undocumented.
 
@@ -29,6 +30,7 @@ Classify findings as:
 - Do not modify files unless explicitly requested.
 - Do not propose restructuring merely for aesthetic consistency.
 - Preserve useful historical context.
+- Identify the responsible workflow or note for each recommended correction.
 - Prefer high-impact corrections over broad cleanup.
 
 ## Output

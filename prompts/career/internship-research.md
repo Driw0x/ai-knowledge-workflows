@@ -32,13 +32,24 @@ For the selected offers, determine:
 - Prefer original employer career pages when available.
 - Do not treat inaccessible or clearly expired offers as active.
 - Evaluate the actual responsibilities and requirements, not the job title alone.
+- Search across compatible role families and adjacent skill areas defined by the candidate profile instead of relying on one title or keyword.
+- Consider the application domain separately from technical fit.
 - Deduplicate identical offers across sources, using the official requisition ID or application URL when available.
 - Distinguish an accessible listing from a position confirmed as still open.
+- Record publication dates only when verified. Label dates inferred from relative wording as inferred.
+- Keep the official requisition ID when available and prefer the canonical employer or ATS URL over mirrors.
 - Do not infer candidate skills that are not supported by the supplied files.
 - Do not include weakly related offers simply to increase the result count.
 - Preserve source URLs or references needed to verify selected offers.
 - Separate facts from analysis.
 - State uncertainty explicitly.
+
+## Discovery and selection boundary
+
+Treat discovery and application preparation as separate stages. This workflow
+may rank and report opportunities, but it must not create application folders,
+adapt resumes, or prepare application documents without an explicit user
+selection.
 
 ## Fit evaluation
 

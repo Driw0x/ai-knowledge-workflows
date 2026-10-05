@@ -61,6 +61,9 @@ ai-knowledge-workflows/
 │   └── AGENTS.example.md
 │
 ├── prompts/
+│   ├── application/
+│   │   ├── prepare-application.md
+│   │   └── adapt-resume.md
 │   ├── career/
 │   │   └── internship-research.md
 │   ├── project/
@@ -78,7 +81,8 @@ ai-knowledge-workflows/
 │   ├── documentation/
 │   │   ├── update-readme.md
 │   │   ├── update-project-doc.md
-│   │   └── repository-audit.md
+│   │   ├── repository-audit.md
+│   │   └── generalize-repository.md
 │   └── portfolio/
 │       └── synchronize-portfolio.md
 │
@@ -100,16 +104,25 @@ ai-knowledge-workflows/
     ├── templates/
     │   └── evaluation-report.md
     ├── results/
+    │   ├── application-preparation.md
     │   ├── project-update.md
     │   ├── skill-evaluation.md
     │   └── documentation-update.md
     └── cases/
+        ├── application-preparation.md
         ├── project-update.md
         ├── skill-evaluation.md
         └── documentation-update.md
 ```
 
 ## Workflow catalog
+
+### Applications
+
+`prompts/application/`
+
+Prepare grounded application materials and choose whether to reuse, adapt, or
+create a resume. The workflows preserve human review and manual submission.
 
 ### Career
 
@@ -156,7 +169,8 @@ Evaluate which skills are actually demonstrated by available evidence, synchroni
 
 `prompts/documentation/`
 
-Update READMEs and technical documentation while preserving valid content and minimizing unnecessary rewrites.
+Audit or update technical documentation, and extract a reusable standalone
+repository from private sources while preserving privacy and working behavior.
 
 ### Portfolio
 
@@ -266,10 +280,14 @@ Do not commit:
 
 ## Current status
 
-**Status: v1 complete — maintenance and optional extensions only.**
+**Status: v1 complete — maintained and extended with grounded application and repository-generalization workflows.**
 
 ### Career
 - [x] Internship research
+
+### Applications
+- [x] Grounded application preparation
+- [x] Resume reuse / adaptation / creation decision
 
 ### Projects
 - [x] Add project
@@ -290,6 +308,7 @@ Do not commit:
 - [x] Update README
 - [x] Update project documentation
 - [x] Audit repository documentation
+- [x] Generalize a private or local repository
 
 ### Portfolio
 - [x] Portfolio synchronization workflow
@@ -301,8 +320,6 @@ Do not commit:
 
 The following items are optional and outside the v1 scope:
 
-- [ ] CV adaptation workflow
-- [ ] Application preparation workflow
 - [ ] Model-to-model output comparison
 
 ## License

@@ -9,6 +9,10 @@ Evaluate the project as evidence for the candidate's target technical roles.
 3. Existing project documentation
 4. Relevant career profile or target-role definitions, if available
 
+Inspect current implementation and tests before relying on project claims. Use
+the current branch and `HEAD` as the evaluated state, and disclose relevant
+uncommitted or remote-state differences.
+
 ## Evaluation dimensions
 
 Assess:
@@ -35,6 +39,9 @@ For every important skill, classify the evidence as:
 - **Unsupported**
 
 Explain the evidence behind each classification.
+
+Distinguish implemented, tested, validated, experimental, planned, abandoned,
+and replaced work. A roadmap or historical experiment is not current evidence.
 
 ## Decision
 

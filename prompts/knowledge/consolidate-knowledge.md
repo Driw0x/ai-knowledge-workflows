@@ -22,8 +22,10 @@ Identify:
 - Prefer improving an existing note over creating a duplicate.
 - Preserve useful examples and technical detail.
 - Do not merge concepts only because they are related.
-- Keep project-specific facts separate from general concepts when useful.
+- Assign one responsible note to each concept or precise result.
+- Keep project-specific facts, full metrics, and historical experiments in their source records; link to them instead of copying them across concepts.
 - Maintain existing valid links.
+- Preserve provenance and evidence status when moving or condensing information.
 - Avoid large-scale restructuring unless there is a clear benefit.
 - Prefer minimal structural change.
 

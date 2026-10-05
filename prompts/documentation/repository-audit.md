@@ -13,6 +13,10 @@ Compare documentation against:
 - directory structure;
 - current project status.
 
+Inspect the current branch and `HEAD`. Prefer executed code and tests over stale
+documentation when they conflict. Note relevant uncommitted or remote-state
+differences instead of combining them into one project state.
+
 ## Identify
 
 - stale README sections;
@@ -40,6 +44,7 @@ Classify findings as:
 - Prefer correctness over completeness.
 - Do not require documentation for trivial internal details.
 - Focus on information that affects users, contributors, reproducibility, or project understanding.
+- Define the audit scope and success criteria before inspection.
 
 ## Output
 

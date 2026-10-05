@@ -38,12 +38,17 @@ Use:
 
 ## Offer 1 — Company / Position
 
+- **Stable report ID:**
 - **Company:**
 - **Position:**
+- **Official requisition ID:**
 - **Location:**
 - **Contract:**
-- **Source:**
-- **Status:** Active / uncertain
+- **Publication date:** Verified / inferred / not available
+- **Expected start / duration:**
+- **Canonical source:**
+- **Listing access:** Accessible / inaccessible
+- **Availability:** Confirmed open / uncertain / closed
 - **Why it matches:**
 
 ### Main requirements

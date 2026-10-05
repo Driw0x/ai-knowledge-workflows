@@ -34,6 +34,8 @@ Identify:
 - Prefer concise, durable statements.
 - Preserve important technical nuance.
 - Separate general knowledge from project-specific facts.
+- Prefer one responsible canonical note for each reusable concept. Keep detailed results and project history in their source records.
+- Preserve provenance when it affects interpretation or evidence strength.
 - Add links to related existing notes when appropriate.
 
 ## Output
@@ -44,5 +46,8 @@ Propose:
 - existing notes to update;
 - links to add;
 - information that should not be stored.
+
+For each candidate, name the supporting source, responsible note, maximum
+evidence level, and whether to create, consolidate, defer, or ignore it.
 
 Do not modify files unless explicitly requested.

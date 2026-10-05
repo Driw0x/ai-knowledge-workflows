@@ -10,6 +10,9 @@ Synchronize the public portfolio with the current verified knowledge base.
 4. Career or target-role information
 5. The current portfolio repository
 
+Before editing, inspect both worktrees and identify unrelated local changes that
+must be preserved.
+
 ## Source of truth
 
 Treat the verified knowledge base as the source of truth for:
@@ -44,6 +47,7 @@ Review:
 - Do not invent portfolio claims.
 - Do not add skills that are unsupported by the knowledge base.
 - Do not expose private notes, internal evaluations, or application data.
+- Compare the current portfolio directly with the current source of truth; do not assume a previous synchronization is still valid.
 - Preserve the existing portfolio structure unless a structural change is clearly justified.
 - Prefer minimal diffs.
 - Do not publish every internal milestone.
@@ -53,6 +57,8 @@ Review:
 - Preserve featured-project limits unless explicitly requested otherwise.
 - Do not replace stronger project evidence with newer but weaker projects.
 - Avoid duplicating the same competency across several descriptions when it adds no value.
+- Preserve unrelated local changes in the portfolio repository.
+- Validate the portfolio build or equivalent relevant check after modification.
 
 ## Synchronization checks
 

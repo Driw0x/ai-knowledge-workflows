@@ -7,22 +7,26 @@ Copy it to `AGENTS.md` before adapting it to your own environment.
 ## Core rules
 
 1. Read the relevant source files before acting.
-2. Treat supplied knowledge files as the source of truth for user-specific information.
-3. Do not invent skills, experience, project results, implementation details, or preferences.
-4. Distinguish clearly between:
+2. Before a substantive change, define success criteria, what must remain unchanged, and the checks required.
+3. Treat supplied knowledge files as the source of truth for user-specific information.
+4. Do not invent skills, experience, project results, implementation details, or preferences.
+5. Distinguish clearly between:
    - verified facts;
    - analysis;
    - recommendations;
    - missing information.
-5. Prefer primary sources when researching current information.
-6. Preserve source links or references for time-sensitive claims.
-7. Do not modify stable knowledge files unless the task explicitly requires it.
-8. Keep generated reports separate from source-of-truth files.
-9. Preserve useful existing content when updating documentation.
-10. Prefer minimal diffs over broad rewrites.
-11. Never expose secrets or private information in public outputs.
-12. When a claim cannot be verified, state the limitation instead of guessing.
-13. Distinguish implemented, tested, validated, experimental, planned, abandoned, and replaced work when relevant.
+6. Prefer primary sources when researching current information.
+7. Preserve source links or references for time-sensitive claims.
+8. Diagnose failures before fixing them: reproduce or trace the failure, identify its cause, then change the responsible layer.
+9. Prefer the smallest implementation that satisfies the verified need. Avoid speculative abstractions and new dependencies.
+10. Do not modify stable knowledge files unless the task explicitly requires it.
+11. Keep generated reports separate from source-of-truth files.
+12. Preserve useful existing content when updating documentation.
+13. Prefer minimal diffs over broad rewrites.
+14. Never expose secrets, personal data, private paths, or private context in public outputs.
+15. When a claim cannot be verified, state the limitation instead of guessing.
+16. Distinguish implemented, tested, validated, experimental, planned, abandoned, and replaced work when relevant.
+17. Do not claim completion before running the relevant tests, static checks, build, or smoke test.
 
 ## Evidence policy
 
@@ -53,6 +57,10 @@ private/
 ```
 
 Do not move content from those locations into public files unless explicitly requested and reviewed for anonymization.
+
+When deriving a public repository or document from private sources, extract the
+reusable pattern rather than copying source content. Review the resulting diff
+for personal data, credentials, absolute paths, and private project details.
 
 ## Career workflow
 
@@ -113,3 +121,13 @@ When updating documentation:
 - prefer additions over unnecessary rewrites;
 - ensure documented behavior matches current implementation;
 - keep future work clearly separated from current functionality.
+
+## Failure workflow
+
+When correcting a bug or broken workflow:
+
+1. reproduce or trace the failure with concrete data;
+2. identify the root cause and affected callers;
+3. apply the smallest fix at the responsible layer;
+4. add or update a targeted regression check;
+5. run the broader relevant checks and a real smoke test when practical.

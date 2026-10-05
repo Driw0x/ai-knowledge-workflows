@@ -64,6 +64,10 @@ Repository prompts require source-code inspection before trusting documentation.
 
 The prompt therefore reflects the capabilities required for the task.
 
+For repository work, current implementation and executable tests take
+precedence over stale documentation. Documentation remains useful evidence, but
+not when it contradicts observed behavior.
+
 ## 6. Uncertainty handling
 
 The workflows instruct the agent to distinguish:
@@ -111,3 +115,91 @@ This repository includes:
 The framework remains manual and lightweight. Model-to-model comparisons,
 automated execution, and repeated-run consistency tests remain optional
 extensions rather than v1 requirements.
+
+## 11. Success criteria before execution
+
+Before a substantive change, define:
+
+- the observable result;
+- behavior and files that must remain unchanged;
+- the checks required before completion.
+
+This prevents implementation from becoming the definition of success after the
+fact.
+
+## 12. Diagnose, fix, and verify
+
+A reliable correction workflow is:
+
+```text
+reproduce or trace the failure
+    ↓
+identify the root cause
+    ↓
+apply a targeted fix
+    ↓
+run a regression check
+    ↓
+run broader relevant checks and a smoke test
+```
+
+Writing the change is only one step. A workflow should not report completion
+until the relevant validation has run.
+
+## 13. Grounded generation pipelines
+
+When output contains claims about a person, project, or system, use an explicit
+pipeline:
+
+```text
+source facts
+    ↓
+relevant evidence selection
+    ↓
+generation
+    ↓
+claim and output validation
+```
+
+The model may select, condense, organize, and reformulate evidence. It must not
+create missing facts, metrics, experience, or results.
+
+## 14. Human-in-the-loop boundaries
+
+High-impact workflows should identify decisions that remain human actions.
+Application workflows, for example, may discover, analyze, and prepare
+materials, but the candidate reviews the final content and submits it manually.
+
+```text
+discovery
+    ↓
+analysis
+    ↓
+preparation
+    ↓
+human review
+    ↓
+manual action
+    ↓
+tracking
+```
+
+## 15. Reusable extraction across repository boundaries
+
+A private source can inform a public derivative without being copied into it:
+
+```text
+private source evidence
+    ↓
+identify stable reusable rules
+    ↓
+remove personal and machine-specific context
+    ↓
+apply the smallest public change
+    ↓
+validate behavior, links, and privacy
+```
+
+The source remains authoritative. The derivative exposes only externally useful
+information. Preserve unrelated local changes in both repositories and never
+use the public derivative to overwrite private source facts.

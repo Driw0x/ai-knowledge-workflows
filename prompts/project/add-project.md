@@ -9,6 +9,9 @@ Inspect the target repository and create a structured project entry using only v
 3. Relevant repository files
 4. Existing knowledge-base conventions, if available
 
+Before writing, identify the success criteria, target project directory, and
+files that must remain unchanged.
+
 ## Objective
 
 Create a concise but useful project record that captures:
@@ -27,6 +30,8 @@ Create a concise but useful project record that captures:
 ## Rules
 
 - Inspect implementation before relying on README claims.
+- Inspect the current branch and `HEAD`; distinguish current files from remote state or historical experiments when relevant.
+- Use tests and benchmark artifacts as evidence, and state whether important checks were run during the analysis or only documented.
 - Do not infer technologies that are not used in the repository.
 - Do not claim skills without concrete evidence.
 - Distinguish implemented functionality from planned work.
@@ -34,6 +39,7 @@ Create a concise but useful project record that captures:
 - Preserve repository terminology when it is clear and accurate.
 - Avoid copying large README sections verbatim.
 - Prefer durable information over transient debugging details.
+- Report repository cleanliness when uncommitted changes may affect the observed state.
 
 ## Output
 

@@ -62,57 +62,25 @@ ai-knowledge-workflows/
 │
 ├── prompts/
 │   ├── application/
-│   │   ├── prepare-application.md
-│   │   └── adapt-resume.md
 │   ├── career/
-│   │   └── internship-research.md
 │   ├── project/
-│   │   ├── add-project.md
-│   │   ├── update-project.md
-│   │   └── evaluate-project.md
 │   ├── knowledge/
-│   │   ├── extract-knowledge.md
-│   │   ├── consolidate-knowledge.md
-│   │   └── audit-knowledge.md
 │   ├── skills/
-│   │   ├── evaluate-skills.md
-│   │   ├── sync-skills.md
-│   │   └── cross-project-competency-analysis.md
 │   ├── documentation/
-│   │   ├── update-readme.md
-│   │   ├── update-project-doc.md
-│   │   ├── repository-audit.md
-│   │   └── generalize-repository.md
 │   └── portfolio/
-│       └── synchronize-portfolio.md
 │
 ├── templates/
-│   ├── career-profile.md
-│   ├── internship-research-report.md
-│   └── project-profile.md
 │
 ├── examples/
-│   └── internship-research-example.md
 │
 ├── docs/
-│   └── prompt-engineering.md
 │
 └── evals/
     ├── README.md
     ├── rubrics/
-    │   └── prompt-evaluation-rubric.md
     ├── templates/
-    │   └── evaluation-report.md
     ├── results/
-    │   ├── application-preparation.md
-    │   ├── project-update.md
-    │   ├── skill-evaluation.md
-    │   └── documentation-update.md
     └── cases/
-        ├── application-preparation.md
-        ├── project-update.md
-        ├── skill-evaluation.md
-        └── documentation-update.md
 ```
 
 ## Workflow catalog

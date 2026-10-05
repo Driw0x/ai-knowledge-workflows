@@ -40,10 +40,12 @@ evals/
 ├── templates/
 │   └── evaluation-report.md
 ├── cases/
+│   ├── application-preparation.md
 │   ├── project-update.md
 │   ├── skill-evaluation.md
 │   └── documentation-update.md
 └── results/
+    ├── application-preparation.md
     ├── project-update.md
     ├── skill-evaluation.md
     └── documentation-update.md
@@ -137,6 +139,7 @@ Examples:
 
 The current manual benchmark set includes cases and qualitative results for:
 
+- application preparation and resume decisions;
 - project updates;
 - skill evaluation;
 - documentation updates.
@@ -146,6 +149,7 @@ Possible additional cases can cover:
 - internship research;
 - knowledge extraction;
 - portfolio synchronization;
+- repository generalization;
 - cross-project competency analysis.
 
 ## Optional automation

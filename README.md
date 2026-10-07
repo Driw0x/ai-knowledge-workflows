@@ -1,5 +1,7 @@
 # AI Knowledge Workflows
 
+[English](README.md) | [Français](README.fr.md) | [简体中文](README.zh-CN.md)
+
 Reusable AI-agent workflows, prompt patterns, and knowledge-base templates for research, project management, skill assessment, and technical documentation.
 
 The repository is built around a simple principle:
@@ -91,6 +93,8 @@ ai-knowledge-workflows/
 
 Prepare grounded application materials and choose whether to reuse, adapt, or
 create a resume. The workflows preserve human review and manual submission.
+
+For a standalone application that implements this workflow, see [AI Job Application Workbench](https://github.com/Driw0x/ai-job-application-workbench).
 
 ### Career
 

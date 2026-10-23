@@ -249,7 +249,7 @@ Ne commitez pas :
 
 ## État actuel
 
-**Statut : v1 terminée — maintenue et étendue avec des workflows de candidature fondés sur les sources et de généralisation de repositories.**
+**Statut : v1 terminée - maintenue et étendue avec des workflows de candidature fondés sur les sources et de généralisation de repositories.**
 
 ### Carrière
 - [x] Recherche de stages
@@ -294,3 +294,42 @@ Les éléments suivants sont facultatifs et hors du périmètre de la v1 :
 ## Licence
 
 [Licence MIT](LICENSE)
+
+<!-- multilingual-documentation -->
+
+## Documentation complémentaire
+
+- [agents/AGENTS.example.md](agents/AGENTS.example.fr.md)
+- [docs/prompt-engineering.md](docs/prompt-engineering.fr.md)
+- [evals/README.md](evals/README.fr.md)
+- [evals/cases/application-preparation.md](evals/cases/application-preparation.fr.md)
+- [evals/cases/documentation-update.md](evals/cases/documentation-update.fr.md)
+- [evals/cases/project-update.md](evals/cases/project-update.fr.md)
+- [evals/cases/skill-evaluation.md](evals/cases/skill-evaluation.fr.md)
+- [evals/results/application-preparation.md](evals/results/application-preparation.fr.md)
+- [evals/results/documentation-update.md](evals/results/documentation-update.fr.md)
+- [evals/results/project-update.md](evals/results/project-update.fr.md)
+- [evals/results/skill-evaluation.md](evals/results/skill-evaluation.fr.md)
+- [evals/rubrics/prompt-evaluation-rubric.md](evals/rubrics/prompt-evaluation-rubric.fr.md)
+- [evals/templates/evaluation-report.md](evals/templates/evaluation-report.fr.md)
+- [examples/internship-research-example.md](examples/internship-research-example.fr.md)
+- [prompts/application/adapt-resume.md](prompts/application/adapt-resume.fr.md)
+- [prompts/application/prepare-application.md](prompts/application/prepare-application.fr.md)
+- [prompts/career/internship-research.md](prompts/career/internship-research.fr.md)
+- [prompts/documentation/generalize-repository.md](prompts/documentation/generalize-repository.fr.md)
+- [prompts/documentation/repository-audit.md](prompts/documentation/repository-audit.fr.md)
+- [prompts/documentation/update-project-doc.md](prompts/documentation/update-project-doc.fr.md)
+- [prompts/documentation/update-readme.md](prompts/documentation/update-readme.fr.md)
+- [prompts/knowledge/audit-knowledge.md](prompts/knowledge/audit-knowledge.fr.md)
+- [prompts/knowledge/consolidate-knowledge.md](prompts/knowledge/consolidate-knowledge.fr.md)
+- [prompts/knowledge/extract-knowledge.md](prompts/knowledge/extract-knowledge.fr.md)
+- [prompts/portfolio/synchronize-portfolio.md](prompts/portfolio/synchronize-portfolio.fr.md)
+- [prompts/project/add-project.md](prompts/project/add-project.fr.md)
+- [prompts/project/evaluate-project.md](prompts/project/evaluate-project.fr.md)
+- [prompts/project/update-project.md](prompts/project/update-project.fr.md)
+- [prompts/skills/cross-project-competency-analysis.md](prompts/skills/cross-project-competency-analysis.fr.md)
+- [prompts/skills/evaluate-skills.md](prompts/skills/evaluate-skills.fr.md)
+- [prompts/skills/sync-skills.md](prompts/skills/sync-skills.fr.md)
+- [templates/career-profile.md](templates/career-profile.fr.md)
+- [templates/internship-research-report.md](templates/internship-research-report.fr.md)
+- [templates/project-profile.md](templates/project-profile.fr.md)

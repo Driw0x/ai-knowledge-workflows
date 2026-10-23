@@ -1,5 +1,10 @@
 # Evaluate Project Prompt
 
+[English](evaluate-project.md) | [Français](evaluate-project.fr.md) | [简体中文](evaluate-project.zh-CN.md)
+
+[Project README](../../README.md)
+
+
 Evaluate the project as evidence for the candidate's target technical roles.
 
 ## Read before starting

@@ -1,5 +1,10 @@
 # Internship Research Prompt
 
+[English](internship-research.md) | [Français](internship-research.fr.md) | [简体中文](internship-research.zh-CN.md)
+
+[Project README](../../README.md)
+
+
 Perform a current search for final-year internship opportunities matching the candidate profile.
 
 ## Read before starting

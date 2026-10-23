@@ -1,5 +1,10 @@
 # Cross-Project Competency Analysis Prompt
 
+[English](cross-project-competency-analysis.md) | [Français](cross-project-competency-analysis.fr.md) | [简体中文](cross-project-competency-analysis.zh-CN.md)
+
+[Project README](../../README.md)
+
+
 Analyze the candidate's projects collectively to determine which competencies are strongly demonstrated across the portfolio.
 
 ## Read before starting
@@ -42,11 +47,11 @@ Repeated weak evidence does not equal strong evidence.
 
 For each competency, assign one of:
 
-- **Strong and distributed** — strong evidence across several projects
-- **Strong but concentrated** — strong evidence, but mainly from one project
-- **Moderate** — clear evidence with limited depth or breadth
-- **Weak** — minimal or indirect evidence
-- **Unsupported** — no reliable evidence
+- **Strong and distributed** - strong evidence across several projects
+- **Strong but concentrated** - strong evidence, but mainly from one project
+- **Moderate** - clear evidence with limited depth or breadth
+- **Weak** - minimal or indirect evidence
+- **Unsupported** - no reliable evidence
 
 ## Analysis
 

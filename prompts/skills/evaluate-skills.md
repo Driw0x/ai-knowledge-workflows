@@ -1,5 +1,10 @@
 # Evaluate Demonstrated Skills Prompt
 
+[English](evaluate-skills.md) | [Français](evaluate-skills.fr.md) | [简体中文](evaluate-skills.zh-CN.md)
+
+[Project README](../../README.md)
+
+
 Inspect the available evidence and determine which skills are actually demonstrated.
 
 ## Evidence sources
@@ -19,10 +24,10 @@ Use only relevant sources such as:
 
 For each skill, classify evidence as:
 
-- **Strong** — repeated or substantial evidence
-- **Moderate** — clear evidence, but limited depth or scope
-- **Weak** — indirect or minimal evidence
-- **Unsupported** — no reliable evidence
+- **Strong** - repeated or substantial evidence
+- **Moderate** - clear evidence, but limited depth or scope
+- **Weak** - indirect or minimal evidence
+- **Unsupported** - no reliable evidence
 
 ## Rules
 

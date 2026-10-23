@@ -1,4 +1,9 @@
-# Evaluation Case — Documentation Update
+# Evaluation Case - Documentation Update
+
+[English](documentation-update.md) | [Français](documentation-update.fr.md) | [简体中文](documentation-update.zh-CN.md)
+
+[Project README](../../README.md)
+
 
 ## Workflow under test
 

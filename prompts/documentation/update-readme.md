@@ -1,5 +1,10 @@
 # Update README Prompt
 
+[English](update-readme.md) | [Français](update-readme.fr.md) | [简体中文](update-readme.zh-CN.md)
+
+[Project README](../../README.md)
+
+
 Inspect the repository and update its README so that it reflects the current project state.
 
 ## Review

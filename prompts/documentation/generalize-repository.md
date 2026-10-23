@@ -1,5 +1,10 @@
 # Generalize Repository Prompt
 
+[English](generalize-repository.md) | [Français](generalize-repository.fr.md) | [简体中文](generalize-repository.zh-CN.md)
+
+[Project README](../../README.md)
+
+
 Extract a reusable public repository from a private or local source while
 preserving working behavior and private boundaries.
 

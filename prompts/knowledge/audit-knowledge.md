@@ -1,5 +1,10 @@
 # Audit Knowledge Base Prompt
 
+[English](audit-knowledge.md) | [Français](audit-knowledge.fr.md) | [简体中文](audit-knowledge.zh-CN.md)
+
+[Project README](../../README.md)
+
+
 Audit the knowledge base for quality, consistency, and maintainability.
 
 ## Check for
@@ -21,9 +26,9 @@ Audit the knowledge base for quality, consistency, and maintainability.
 
 Classify findings as:
 
-- **High** — likely to mislead future reasoning
-- **Medium** — reduces clarity or maintainability
-- **Low** — cleanup or polish
+- **High** - likely to mislead future reasoning
+- **Medium** - reduces clarity or maintainability
+- **Low** - cleanup or polish
 
 ## Rules
 

@@ -250,7 +250,7 @@ Do not infer a skill from a technology being mentioned only once.
 
 ## 当前状态
 
-**状态：v1 已完成——持续维护，并扩展了基于证据的求职申请工作流和仓库通用化工作流。**
+**状态：v1 已完成--持续维护，并扩展了基于证据的求职申请工作流和仓库通用化工作流。**
 
 ### 职业发展
 - [x] 实习岗位研究
@@ -295,3 +295,42 @@ Do not infer a skill from a technology being mentioned only once.
 ## 许可证
 
 [MIT License](LICENSE)
+
+<!-- multilingual-documentation -->
+
+## 更多文档
+
+- [agents/AGENTS.example.md](agents/AGENTS.example.zh-CN.md)
+- [docs/prompt-engineering.md](docs/prompt-engineering.zh-CN.md)
+- [evals/README.md](evals/README.zh-CN.md)
+- [evals/cases/application-preparation.md](evals/cases/application-preparation.zh-CN.md)
+- [evals/cases/documentation-update.md](evals/cases/documentation-update.zh-CN.md)
+- [evals/cases/project-update.md](evals/cases/project-update.zh-CN.md)
+- [evals/cases/skill-evaluation.md](evals/cases/skill-evaluation.zh-CN.md)
+- [evals/results/application-preparation.md](evals/results/application-preparation.zh-CN.md)
+- [evals/results/documentation-update.md](evals/results/documentation-update.zh-CN.md)
+- [evals/results/project-update.md](evals/results/project-update.zh-CN.md)
+- [evals/results/skill-evaluation.md](evals/results/skill-evaluation.zh-CN.md)
+- [evals/rubrics/prompt-evaluation-rubric.md](evals/rubrics/prompt-evaluation-rubric.zh-CN.md)
+- [evals/templates/evaluation-report.md](evals/templates/evaluation-report.zh-CN.md)
+- [examples/internship-research-example.md](examples/internship-research-example.zh-CN.md)
+- [prompts/application/adapt-resume.md](prompts/application/adapt-resume.zh-CN.md)
+- [prompts/application/prepare-application.md](prompts/application/prepare-application.zh-CN.md)
+- [prompts/career/internship-research.md](prompts/career/internship-research.zh-CN.md)
+- [prompts/documentation/generalize-repository.md](prompts/documentation/generalize-repository.zh-CN.md)
+- [prompts/documentation/repository-audit.md](prompts/documentation/repository-audit.zh-CN.md)
+- [prompts/documentation/update-project-doc.md](prompts/documentation/update-project-doc.zh-CN.md)
+- [prompts/documentation/update-readme.md](prompts/documentation/update-readme.zh-CN.md)
+- [prompts/knowledge/audit-knowledge.md](prompts/knowledge/audit-knowledge.zh-CN.md)
+- [prompts/knowledge/consolidate-knowledge.md](prompts/knowledge/consolidate-knowledge.zh-CN.md)
+- [prompts/knowledge/extract-knowledge.md](prompts/knowledge/extract-knowledge.zh-CN.md)
+- [prompts/portfolio/synchronize-portfolio.md](prompts/portfolio/synchronize-portfolio.zh-CN.md)
+- [prompts/project/add-project.md](prompts/project/add-project.zh-CN.md)
+- [prompts/project/evaluate-project.md](prompts/project/evaluate-project.zh-CN.md)
+- [prompts/project/update-project.md](prompts/project/update-project.zh-CN.md)
+- [prompts/skills/cross-project-competency-analysis.md](prompts/skills/cross-project-competency-analysis.zh-CN.md)
+- [prompts/skills/evaluate-skills.md](prompts/skills/evaluate-skills.zh-CN.md)
+- [prompts/skills/sync-skills.md](prompts/skills/sync-skills.zh-CN.md)
+- [templates/career-profile.md](templates/career-profile.zh-CN.md)
+- [templates/internship-research-report.md](templates/internship-research-report.zh-CN.md)
+- [templates/project-profile.md](templates/project-profile.zh-CN.md)

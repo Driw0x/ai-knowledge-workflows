@@ -1,5 +1,10 @@
 # Repository Documentation Audit Prompt
 
+[English](repository-audit.md) | [Français](repository-audit.fr.md) | [简体中文](repository-audit.zh-CN.md)
+
+[Project README](../../README.md)
+
+
 Audit repository documentation for accuracy, completeness, and consistency.
 
 ## Compare

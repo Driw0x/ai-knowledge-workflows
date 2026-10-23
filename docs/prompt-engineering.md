@@ -1,5 +1,10 @@
 # Prompt Engineering Patterns
 
+[English](prompt-engineering.md) | [Français](prompt-engineering.fr.md) | [简体中文](prompt-engineering.zh-CN.md)
+
+[Project README](../README.md)
+
+
 This repository uses prompt engineering as a software-design practice rather than as a collection of one-off instructions.
 
 ## 1. Context decomposition

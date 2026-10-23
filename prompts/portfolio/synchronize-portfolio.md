@@ -1,5 +1,10 @@
 # Portfolio Synchronization Prompt
 
+[English](synchronize-portfolio.md) | [Français](synchronize-portfolio.fr.md) | [简体中文](synchronize-portfolio.zh-CN.md)
+
+[Project README](../../README.md)
+
+
 Synchronize the public portfolio with the current verified knowledge base.
 
 ## Read before starting

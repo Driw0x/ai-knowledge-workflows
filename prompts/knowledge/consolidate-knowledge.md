@@ -1,5 +1,10 @@
 # Consolidate Knowledge Prompt
 
+[English](consolidate-knowledge.md) | [Français](consolidate-knowledge.fr.md) | [简体中文](consolidate-knowledge.zh-CN.md)
+
+[Project README](../../README.md)
+
+
 Review the requested area of the knowledge base and consolidate overlapping or fragmented information.
 
 ## Objective

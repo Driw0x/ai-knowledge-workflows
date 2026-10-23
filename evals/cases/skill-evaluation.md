@@ -1,4 +1,9 @@
-# Evaluation Case — Skill Evaluation
+# Evaluation Case - Skill Evaluation
+
+[English](skill-evaluation.md) | [Français](skill-evaluation.fr.md) | [简体中文](skill-evaluation.zh-CN.md)
+
+[Project README](../../README.md)
+
 
 ## Workflows under test
 

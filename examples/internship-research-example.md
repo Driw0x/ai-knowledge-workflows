@@ -1,4 +1,9 @@
-# Internship Research — Example
+# Internship Research - Example
+
+[English](internship-research-example.md) | [Français](internship-research-example.fr.md) | [简体中文](internship-research-example.zh-CN.md)
+
+[Project README](../README.md)
+
 
 > Fictional example only. Companies and opportunities below are illustrative and are not real job listings.
 
@@ -29,7 +34,7 @@ The highest-priority action is to apply to the strongest ML-focused offers while
 | 2 | Example Systems | Applied AI Intern | Example City | Good | Strong AI fit, but deployment evidence is partial |
 | 3 | Example Analytics | Data Analyst Intern | Example City | Partial | Python is relevant, but the role is more BI-oriented |
 
-## Offer 1 — Example AI Lab / Machine Learning Engineer Intern
+## Offer 1 - Example AI Lab / Machine Learning Engineer Intern
 
 - **Company:** Example AI Lab
 - **Position:** Machine Learning Engineer Intern
@@ -109,8 +114,8 @@ This opportunity should be prioritized because the core technical requirements a
 
 ### Apply now
 
-- Example AI Lab — Machine Learning Engineer Intern
-- Example Systems — Applied AI Intern
+- Example AI Lab - Machine Learning Engineer Intern
+- Example Systems - Applied AI Intern
 
 ### Strengthen next
 

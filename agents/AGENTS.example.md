@@ -1,5 +1,10 @@
 # Agent Instructions
 
+[English](AGENTS.example.md) | [Français](AGENTS.example.fr.md) | [简体中文](AGENTS.example.zh-CN.md)
+
+[Project README](../README.md)
+
+
 This file defines reusable operating rules for AI agents using this repository.
 
 Copy it to `AGENTS.md` before adapting it to your own environment.

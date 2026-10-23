@@ -1,5 +1,10 @@
 # Extract Knowledge Prompt
 
+[English](extract-knowledge.md) | [Français](extract-knowledge.fr.md) | [简体中文](extract-knowledge.zh-CN.md)
+
+[Project README](../../README.md)
+
+
 Inspect the supplied source material and extract durable knowledge that is useful for future reasoning.
 
 ## Possible sources

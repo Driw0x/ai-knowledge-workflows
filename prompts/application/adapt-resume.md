@@ -1,5 +1,10 @@
 # Adapt Resume Prompt
 
+[English](adapt-resume.md) | [Français](adapt-resume.fr.md) | [简体中文](adapt-resume.zh-CN.md)
+
+[Project README](../../README.md)
+
+
 Choose and prepare the most suitable resume for one job posting using only
 verified candidate evidence.
 
@@ -15,11 +20,11 @@ verified candidate evidence.
 
 Choose exactly one action:
 
-- **REUSE** — an existing resume already fits sufficiently without substantive
+- **REUSE** - an existing resume already fits sufficiently without substantive
   changes.
-- **ADAPT** — an existing resume is a suitable base, but emphasis, ordering, or
+- **ADAPT** - an existing resume is a suitable base, but emphasis, ordering, or
   wording should change.
-- **CREATE** — no existing resume provides a sufficiently appropriate basis.
+- **CREATE** - no existing resume provides a sufficiently appropriate basis.
 
 Prefer `REUSE`, then `ADAPT`, when they represent the evidence accurately.
 Do not create a new variant merely because the wording could be different.

@@ -1,5 +1,10 @@
 # Career Profile
 
+[English](career-profile.md) | [Français](career-profile.fr.md) | [简体中文](career-profile.zh-CN.md)
+
+[Project README](../README.md)
+
+
 This file is a template for private candidate context.
 
 Copy it to:

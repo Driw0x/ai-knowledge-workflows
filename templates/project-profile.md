@@ -1,5 +1,10 @@
 # Project Profile
 
+[English](project-profile.md) | [Français](project-profile.fr.md) | [简体中文](project-profile.zh-CN.md)
+
+[Project README](../README.md)
+
+
 ## Identity
 
 - **Name:**

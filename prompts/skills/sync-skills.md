@@ -1,5 +1,10 @@
 # Synchronize Skills Prompt
 
+[English](sync-skills.md) | [Français](sync-skills.fr.md) | [简体中文](sync-skills.zh-CN.md)
+
+[Project README](../../README.md)
+
+
 Synchronize the candidate's skill records with current project, education, and experience evidence.
 
 ## Objective

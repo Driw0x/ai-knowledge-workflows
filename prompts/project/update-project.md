@@ -1,5 +1,10 @@
 # Update Project Prompt
 
+[English](update-project.md) | [Français](update-project.fr.md) | [简体中文](update-project.zh-CN.md)
+
+[Project README](../../README.md)
+
+
 Inspect the current project repository and compare it with the existing knowledge-base entry.
 
 ## Objective

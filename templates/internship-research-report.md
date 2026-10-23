@@ -1,4 +1,9 @@
-# Internship Research — YYYY-MM-DD
+# Internship Research - YYYY-MM-DD
+
+[English](internship-research-report.md) | [Français](internship-research-report.fr.md) | [简体中文](internship-research-report.zh-CN.md)
+
+[Project README](../README.md)
+
 
 ## Research scope
 
@@ -36,7 +41,7 @@ Use:
 
 ---
 
-## Offer 1 — Company / Position
+## Offer 1 - Company / Position
 
 - **Stable report ID:**
 - **Company:**

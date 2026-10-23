@@ -1,5 +1,10 @@
 # Prompt Evaluation Benchmarks
 
+[English](README.md) | [Français](README.fr.md) | [简体中文](README.zh-CN.md)
+
+[Project README](../README.md)
+
+
 This directory defines lightweight evaluation cases for the prompt workflows in this repository.
 
 The goal is to make prompt changes reviewable and measurable instead of relying only on subjective impressions.

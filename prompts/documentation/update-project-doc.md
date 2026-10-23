@@ -1,5 +1,10 @@
 # Update Project Documentation Prompt
 
+[English](update-project-doc.md) | [Français](update-project-doc.fr.md) | [简体中文](update-project-doc.zh-CN.md)
+
+[Project README](../../README.md)
+
+
 Inspect the implementation and existing technical documentation.
 
 Update the documentation so that it reflects the current repository state.

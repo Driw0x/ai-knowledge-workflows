@@ -1,5 +1,10 @@
 # Add Project Prompt
 
+[English](add-project.md) | [Français](add-project.fr.md) | [简体中文](add-project.zh-CN.md)
+
+[Project README](../../README.md)
+
+
 Inspect the target repository and create a structured project entry using only verifiable information.
 
 ## Read before starting

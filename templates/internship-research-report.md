@@ -26,11 +26,11 @@ Summarize:
 
 ## Shortlist
 
-| Priority | Company | Position | Location | Fit | Main reason |
-|---|---|---|---|---|---|
-| 1 |  |  |  |  |  |
-| 2 |  |  |  |  |  |
-| 3 |  |  |  |  |  |
+| Priority | Report ID | Company | Position | Location | Fit | Main reason |
+|---|---|---|---|---|---|---|
+| 1 | O01 |  |  |  |  |  |
+| 2 | O02 |  |  |  |  |  |
+| 3 | O03 |  |  |  |  |  |
 
 Use:
 

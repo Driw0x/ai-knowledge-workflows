@@ -57,6 +57,8 @@ Pour les offres sélectionnées, déterminer :
 
 Traitez la découverte et la préparation de l'application comme des étapes séparées. Ce workflow peut classer et rapporter des opportunités, mais il ne doit pas créer de dossiers d'application, adapter des CV ou préparer des documents d'application sans une sélection explicite de la part de l'utilisateur.
 
+Attribuez à chaque offre présélectionnée un identifiant unique dans le rapport (`O01`, `O02`, etc.) et répétez-le dans sa fiche. L'utilisateur peut ainsi sélectionner les offres par identifiant.
+
 <a id="fit-evaluation"></a>
 ## Évaluation de l'adaptation
 
@@ -83,5 +85,7 @@ Enregistrez le rapport personnel à :
 ```text
 local/research/YYYY-MM-DD-internships.md
 ```
+
+Si ce nom de fichier existe déjà, utiliser le prochain suffixe disponible (`-2`, `-3`, etc.). Ne pas écraser un rapport précédent sauf demande explicite de correction.
 
 Ne pas modifier le profil du candidat ou les modèles publics sauf si une demande explicite est formulée.

@@ -56,6 +56,8 @@ may rank and report opportunities, but it must not create application folders,
 adapt resumes, or prepare application documents without an explicit user
 selection.
 
+Give each shortlisted offer a unique report ID (`O01`, `O02`, etc.) and repeat it in the offer details so the user can select offers by ID.
+
 ## Fit evaluation
 
 Use qualitative levels:
@@ -80,5 +82,7 @@ Save the personal report to:
 ```text
 local/research/YYYY-MM-DD-internships.md
 ```
+
+If that filename already exists, use the next available suffix (`-2`, `-3`, and so on). Do not overwrite an earlier report unless explicitly asked to correct it.
 
 Do not modify the candidate profile or public templates unless explicitly requested.

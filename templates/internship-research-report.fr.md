@@ -29,11 +29,11 @@ Résumé :
 <a id="shortlist"></a>
 ## Liste des opportunités
 
-|Priorité|Entreprise|Poste|Lieu|Correspondance|Raison principale|
-|---|---|---|---|---|---|
-| 1 |  |  |  |  |  |
-| 2 |  |  |  |  |  |
-| 3 |  |  |  |  |  |
+|Priorité|Identifiant du rapport|Entreprise|Poste|Lieu|Correspondance|Raison principale|
+|---|---|---|---|---|---|---|
+| 1 | O01 |  |  |  |  |  |
+| 2 | O02 |  |  |  |  |  |
+| 3 | O03 |  |  |  |  |  |
 
 Utilisation :
 
